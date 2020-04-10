@@ -28,7 +28,6 @@ class HrSpider(scrapy.Spider):
             yield scrapy.Request(next_url,callback=self.parse)#注意不带括号
 
         # print(page_list)
-        pass
 
 
 """
